@@ -1,0 +1,46 @@
+.wheel-wrapper {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.wheel-svg {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background: radial-gradient(ellipse at center, #23272f 60%, #11131a 100%);
+  border-radius: 50%;
+}
+
+.wheel-segment {
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.28));
+  stroke: rgba(0,0,0,0.4);
+  stroke-width: 2px;
+}
+.segment-0 {
+  fill: #2d8cff;
+}
+.segment-1 {
+  fill: #1a233a;
+}
+
+.wheel-text {
+  text-anchor: middle;
+  dominant-baseline: middle;
+  fill: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  text-shadow: 0 2px 8px #000a;
+  font-family: inherit;
+}
+
+.wheel-center {
+  fill: #23272f;
+  stroke: #ffd700;
+  stroke-width: 4px;
+  filter: drop-shadow(0 2px 12px #000a);
+}
+
+.pointer-modern {
+  filter: drop-shadow(0 2px 8px #000a);
+} 
